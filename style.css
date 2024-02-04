@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(142, 109, 151);
+  background: linear-gradient(
+    90deg,
+    rgb(78, 6, 63) 0%,
+    rgb(219, 103, 210) 100%
+  );
+}
+
+.H1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.card-body {
+  background: #efbbe5;
+  padding: 180px;
+  border-radius: 80px;
+  text-align: center;
+}
+.card-body h1 {
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+.card-btn button {
+  border-radius: 10px;
+  color: #bdb8c7;
+  padding: 15px 30px;
+  border: 2;
+  font-size: 25px;
+  font-weight: bolder;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+button#decrement {
+  background: #830505;
+}
+button#decrement:hover {
+  background: #da354b;
+  color: #fff;
+}
+button#reset {
+  background: #000000;
+  
+}
+button#reset:hover {
+  background: #f8e0b5;
+  color: #070606;
+}
+button#increment {
+  background: #014608;
+  
+}
+button#increment:hover {
+  background: #06952c;
+  color: #fff;
+}
